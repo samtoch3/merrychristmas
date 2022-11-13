@@ -48,8 +48,8 @@
             background-color: #fff;
             padding: 20px 30px;
             border-radius: 6px;
-            -webkit-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            -webkit-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
         
         .top {
@@ -58,7 +58,7 @@
         }
         
         .top img {
-            width: 150px;
+            width: 250px;
             border-radius: 50%;
         }
         
@@ -77,11 +77,12 @@
             -webkit-box-pack: justify;
             -ms-flex-pack: justify;
             justify-content: space-between;
-            text-align: center;
+            align: center;
+            position: relative;
         }
         
         .flex-container .item {
-            text-align: center;
+            align: center;
         }
         
         .flex-container .item p {
@@ -153,7 +154,7 @@
             margin: auto;
             margin-top: 20px;
             text-decoration: none;
-            background-color: rgb(250, 0, 0);
+            background-color: rgb(235, 0, 0);
             padding: 15px;
             border-radius: 50px;
             color: #fff;
@@ -171,8 +172,9 @@
     <div class="container demo-bg">
 
         <div class="card">
-            <div><img src="mc2.png" width="100px" height="65px"></div>
-            <div class="flex-container top" align="center"><img src="pn.png" width="200px" height="200px"></div>
+            
+            <div class="top" align="center"><img src="pn.png" width="200px" height="200px"></div>
+            <div class="flex-container"><img src="mc2.png" width="200px" height="75px"></div>
 
             <p class="desc">May your christmas be full of love, laughter and goodwill. Have a merry christmas...</p>
 
